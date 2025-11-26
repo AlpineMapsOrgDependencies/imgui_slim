@@ -44,4 +44,4 @@ add_library(imgui STATIC
 )
 
 target_include_directories(imgui PUBLIC .)
-target_link_libraries(imgui PUBLIC webgpu glfw)
+target_link_libraries(imgui PUBLIC webgpu)
